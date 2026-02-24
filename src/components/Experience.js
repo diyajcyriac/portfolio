@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Box, Chip, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Chip, Typography, useMediaQuery} from "@mui/material";
 import { experienceData } from "../data/experienceData";
 import Tags from "./Tags";
 
@@ -7,7 +7,6 @@ export default function ExperienceCard() {
   const [activeIndex, setActiveIndex] = useState(0);
   const sectionsRef = useRef([]);
 
-  const theme = useTheme();
   const isDesktop = useMediaQuery("(min-width:1024px)");
 
   useEffect(() => {

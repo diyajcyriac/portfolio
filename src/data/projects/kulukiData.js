@@ -1,5 +1,4 @@
 import hero from "../../assets/images/kuluki/hero.webp";
-import icons from "../../assets/images/kuluki/icons.webp";
 import website from "../../assets/images/kuluki/website.webp";
 
 const kulukiProjectData = {

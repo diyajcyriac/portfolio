@@ -1,6 +1,5 @@
 import first from "../../assets/images/erp/hero.webp";
 import second from "../../assets/images/erp/dashboard.webp";
-import third from "../../assets/images/erp/data.webp";
 import fourth from "../../assets/images/erp/report.webp";
 import authentication from "../../assets/images/erp/authentication.webp";
 import procurement from "../../assets/images/erp/procurement.webp";
