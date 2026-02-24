@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --text-primary: #000000;
+  --text-secondary: #555555;
+  --accent: #c6f000;
+  --background: #ffffff;
+  --dark-background: #181717;
+  --text-primary-dark: #e9e8e8;
+  --text-secondary-dark: #555555;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fcfcf8;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+.main-header {
+  font-size: 56px;
+  font-weight: 400;
+  max-width: 900px;
+  margin-bottom: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+}
+
+.label-text {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.info-text {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 900px;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+  color: var(--text-secondary);
+}
+
+.section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 24px;
+}
