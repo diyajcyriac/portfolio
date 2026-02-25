@@ -53,7 +53,7 @@ function Hero() {
             variant="h1"
             variants={itemVariants}
             sx={{
-              maxWidth: 900,
+              maxWidth: 1000,
               mb: { xs: 2, md: 4 },
             }}
           >

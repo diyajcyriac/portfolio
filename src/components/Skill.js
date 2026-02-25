@@ -164,7 +164,6 @@ function SkillSection() {
           borderRadius: 3,
           backgroundColor: "#ffffff",
           boxShadow: `
-            0 35px 100px rgba(0,0,0,0.12),
             0 10px 30px rgba(0,0,0,0.06)
           `,
         }}
@@ -184,9 +183,9 @@ function SkillSection() {
               key={index}
               sx={{
                 px: 2.5,
-                py: 1.25,
+                py: 1,
                 minWidth: 150,
-                borderRadius: 2,
+                borderRadius: 999,
                 fontSize: 15,
                 fontWeight: 500,
                 color: "var(--text-secondary)",

@@ -14,7 +14,6 @@ export const skillData = {
         "Node.js",
         "Next.js",
         "UI Engineering",
-        "Performance Optimization",
       ],
     },
     {
