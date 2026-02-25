@@ -12,6 +12,7 @@ export const skillData = {
         "Tailwind CSS",
         "Figma",
         "Node.js",
+        "Next.js",
         "UI Engineering",
         "Performance Optimization",
       ],
@@ -52,7 +53,7 @@ export const skillData = {
     },
     {
       title: "Tools & Platforms",
-      items: ["Git", "Postman", "Jira", "Webflow", "WordPress", "Wix"],
+      items: ["Git", "Postman", "Jira", "WordPress", "Wix"],
     },
     {
       title: "Core Focus Areas",
