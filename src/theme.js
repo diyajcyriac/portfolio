@@ -41,7 +41,19 @@ const theme = createTheme({
       lineHeight: 1.1,
       letterSpacing: "-0.035em",
       color: "#000000",
-      fontSize: "56px"
+      fontSize: "32px", // mobile first
+
+      "@media (min-width:600px)": {
+        fontSize: "40px",
+      },
+
+      "@media (min-width:900px)": {
+        fontSize: "48px",
+      },
+
+      "@media (min-width:1200px)": {
+        fontSize: "56px",
+      },
     },
 
     body1: {

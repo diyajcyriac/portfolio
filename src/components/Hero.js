@@ -27,7 +27,7 @@ const itemVariants = {
 function Hero() {
   return (
     <Box component="section" id='home'>
-      <Container maxWidth="lg" sx={{ py: 12 }}>
+      <Container maxWidth="lg" sx={{ py: { xs: 6, md: 12}}}>
         <MotionBox
           variants={containerVariants}
           initial="hidden"
@@ -37,7 +37,8 @@ function Hero() {
             flexDirection: "column",
             alignItems: { xs: "center", lg: "flex-start" },
             textAlign: { xs: "center", lg: "left" },
-            width: "100%",
+            width: { xs: "80%", lg: "100%" },
+            mx: "auto",
           }}
         >
           <MotionTypography
@@ -93,7 +94,7 @@ function Hero() {
               color="primary"
               href = {heroData.primaryCTAHref}
               sx={{
-                width: { xs: "80%", sm: "auto" },
+                width: { xs: "100%", sm: "auto" },
                 minWidth: { sm: 220 },
                 px: 4,
                 whiteSpace: "nowrap",
@@ -108,7 +109,7 @@ function Hero() {
               variant="outlined"
               href={heroData.secondaryCTAHref}
               sx={{
-                width: { xs: "80%", sm: "auto" },
+                width: { xs: "100%", sm: "auto" },
                 minWidth: { sm: 220 },
                 px: 4,
                 whiteSpace: "nowrap",
